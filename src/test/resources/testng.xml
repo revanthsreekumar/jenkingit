@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MyTestSuite">
+    <test name="FirstTest" enabled="false">
+        <classes>
+            <class name="jewellerstesting.EarringlistsFileWriting"/>
+        </classes>
+    </test>
+    <test name="SecondTest" enabled="false">
+        <classes>
+            <class name="jewellerstesting.Testearring"/>
+        </classes>
+    </test>
+    <listeners>
+        <listener class-name="util.ExtentReportListener" />
+    </listeners>
+      <test name="loginTest">
+        <classes>
+            <class name="jewellerstesting.LoginTest"/>
+        </classes>
+    </test>
+</suite>
