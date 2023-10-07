@@ -30,7 +30,7 @@ public class ExtentReportListener implements ITestListener {
 
     @Override
     public void onStart(ITestContext context) {
-        String loginExtendedReport = "C:\\Users\\JOSE\\Documents\\krishnapriyainterviewprep\\extent-report.html";
+        String loginExtendedReport = "target/extent-report.html";
      
      
         
